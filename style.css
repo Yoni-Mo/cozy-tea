@@ -112,4 +112,42 @@ figcaption h4 {
   overflow: hidden;
   height: 500px;
   width: 1200px;
+  text-align: center;
+}
+.section-3,
+h3 {
+  color: seashell;
+  opacity: 0.9;
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.container-1,
+.container-2,
+.container-3 {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 40px;
+}
+.container-1,
+.container-2,
+.container-3,
+h4 {
+  color: seashell;
+  opacity: 1;
 }
