@@ -14,16 +14,92 @@ body {
   background-color: black;
 }
 
+/* NavBar */
+
+.navbar {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+.logo img {
+  color: seashell;
+  opacity: 0.9;
+  height: 50px;
+  margin-left: 10px;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  align-items: center;
+  padding-right: 10px;
+}
+a {
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+}
 /* Hero */
 
 .hero {
   background-image: url(/images/img-mission-background.jpg);
+  opacity: 0.7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   overflow: hidden;
   height: 700px;
   width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission {
+  width: 1200px;
+  line-height: 0.5rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Second section */
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  width: 300px;
+  height: 200px;
+}
+.section-2 {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2px;
+}
+h2,
+figcaption h4 {
+  color: seashell;
+  opacity: 0.9;
 }
 
 /* 3rd section */
@@ -36,11 +112,4 @@ body {
   overflow: hidden;
   height: 500px;
   width: 1200px;
-}
-
-/* images */
-
-.images {
-  width: 300px;
-  height: 200px;
 }
