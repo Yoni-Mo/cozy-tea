@@ -12,26 +12,41 @@ body {
 html {
   height: 100vh;
   font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
   background-color: black;
 }
 
 /* Navbar */
+header {
+  position: fixed;
+  width: 100%;
+}
 
 .navbar {
   height: 69px;
   border-bottom: 1px solid seashell;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-/* add some style */
-img {
+  align-items: center; 
+ img {
   height: 50px;
   margin-left: 10px;
+  color: seashell;
+  opacity: 0.8;
 }
-ul li {
+ul li a {
   list-style: none;
   text-decoration: underline;
+  color: seashell;
+  opacity: 0.9;
+} 
+.links {
+  width: 25%;
+  font-size: 22px;
+}
+.list-items {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
